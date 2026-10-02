@@ -30,7 +30,6 @@ First four items in the list
 last three items in the list
 ['playing video games', 'playing board games', 'watching movies']
 ```
-4. (optional) You can run `python tests_do_not_touch\test_hobbies.py` to see if your program is working correctly.
 
 ## Exercise 2
 1. Create a file named `tech_shows.py` in this folder.
