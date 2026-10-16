@@ -9,6 +9,7 @@ colors = ['red', 'blue', 'green', 'yellow']
 print(colors)
 
 #get a specific item at an element by using index
+#index is zero based - meaining it starts at 0
 print(colors[2])
 
 #change a item at an element using index
