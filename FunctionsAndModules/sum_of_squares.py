@@ -1,4 +1,6 @@
 import squares_calculator
+# vs from squares_calculator import calculate_sum_of_squares
+# this would remove the need to specify the 
 
 try:
     my_square = int(input("Enter a positive whole number to sum the squares: "))
