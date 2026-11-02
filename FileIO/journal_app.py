@@ -23,7 +23,7 @@ def write_journal(file_path, entry):
 def main():
     file_path = Path(__file__).parent / 'journal.txt'
     while True:
-        action = input("Do you want to (r)ead the journal or (w)rite a new entry? (q to quit): ").strip().lower()
+        action = input("\nDo you want to (r)ead the journal or (w)rite a new entry? (q to quit): ").strip().lower()
         if action == 'r':
             entries = read_journal(file_path)
             print(F"Journal Entries of {file_path}:\n")
