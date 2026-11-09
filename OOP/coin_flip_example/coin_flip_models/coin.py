@@ -21,7 +21,10 @@ class Coin:
 
     # Representation of our object when we print it out in a string.
     def __str__(self) -> str:
-        return self.name.title
+        return self.name.title()
+
+    def __repr__(self) -> str:
+        return f"Coin('{self.name}')"
 
     # Two coins are considered equal if values (or names) match
     def __eq__(self, other: "Coin") -> bool:
