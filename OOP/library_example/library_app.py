@@ -6,6 +6,8 @@ if __name__ == '__main__':
     print("--------------------------")
     # create a library
     library = Library("Edmonton Public Library")
+
+    print("The library object is known as:")
     print(library)
     # let's call the list books to observe that we have no books
     library.list_books()

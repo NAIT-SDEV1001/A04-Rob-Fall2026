@@ -1,3 +1,5 @@
+import random
+
 class Coin:
     # Define valid coin types and their corresponding monetary values (in dollars)
     VALID_COINS: dict[str, float] = {
@@ -43,3 +45,8 @@ class Coin:
         if not isinstance(other, Coin):
             return NotImplemented
         return self.value < other.value
+
+    # Flip method simulates flipping a coin
+    def flip(self) -> str:
+        return random.choice(["heads", "tails"])
+    
